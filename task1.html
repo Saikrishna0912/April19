@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Grid{
+            background-color: rgb(59, 176, 215);
+            height: 300px;
+            display: grid;
+            width: 620px;
+            grid-template-columns: 200px 200px 200px;
+            gap: 10px;
+            padding: 10px;
+            justify-content: center;
+
+        }
+        .Grid div{
+            background-color: rgb(196, 237, 253);
+        }
+        
+       .Grid p{
+        text-align: center;
+        font-size: x-large;
+       }
+
+        
+    </style>
+
+</head>
+<body>
+    <div class="Grid">
+        <div style="grid-column: 1/4;"><p>Header</p></div>
+        <div style="grid-row: 2/4;"> <p style="margin: 70px;">Menu</p></div>
+        <div><p>Main</p></div>
+        <div><p>Right</p></div>
+        <div style="grid-column: 2/4; text-align: center;"><p>Footer</p></div>
+    </div>
+
+    <br>
+    
+</body>
+</html>
